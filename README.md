@@ -26,7 +26,7 @@ Create at least two "Buyer"s, and create a "Bid" on a product for one of the buy
 The Observer Pattern is a software design pattern in which an object, called the ‘subject,’ maintains a list of its dependents, called ‘observers,’ and notifies them automatically of any state changes, usually by calling one of their methods.
 
 In this system, the AuctionSystem maintains a list of the buyers and also includes the register() and 
-notify() methods.
+notice() methods.  This later method is used to notify buyers of a new bid.
 
 
 # README
